@@ -1,0 +1,5 @@
+PASS: role distribution, invalid player counts, lobby reconnect/expiry, FSM transitions, batched night resolution, doctor protection and private detective result
+
+Run:
+kotlinc app/src/main/java/com/example/bluetoothdeduction/core/*.kt tools/CoreSmokeTest.kt -include-runtime -d core-test.jar
+java -jar core-test.jar

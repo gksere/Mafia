@@ -1,0 +1,4 @@
+APK BUILD STATUS: NOT BUILT
+Reason: Android SDK and Gradle are not installed in the build environment.
+Verified: Kotlin core engine compiles and CoreSmokeTest passes.
+Next: Open this project in Android Studio with JDK 17 and SDK Platform 35, then Build > Build APK(s).
