@@ -161,7 +161,6 @@ class BluetoothGameHost(
             playerId = UUID.randomUUID().toString()
             engine.addPlayer(playerId, name)
             token = newReconnectToken()
-            reconnectTokens[playerId] = token
             tokenToPlayer[token] = playerId
         }
 
